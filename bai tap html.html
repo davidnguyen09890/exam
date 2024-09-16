@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đăng ký</title>
+</head>
+<body>
+    <h1>Form đăng ký thông tin</h1>
+    <form action="">
+        Họ tên:
+        <input type="text" name="ht"><br><br>
+        Số điện thoại:
+        <input type="phone" name="sdt"><br> <br>
+        Email:
+        <input type="email" name="email" > <br><br>
+        Bạn đã biết NNLT nào? <br> <br>
+        <input type="checkbox" name="JS" id="pjs"> 
+        <label for="pjs">JavaScript</label> <br><br>
+        <input type="checkbox" name="PY" id="ppy"> 
+        <label for="ppy">Python</label> <br><br>
+        <input type="checkbox" name="c" id="pc"> 
+        <label for="pc">JavaScript</label> <br><br>
+        
+        Giới tính:
+        <input type="radio" name="GT" id="GT_nam"> 
+        <label for="GT_nam">Nam</label>
+        <input type="radio" name="GT" id="GT_nu"> 
+        <label for="GT_nu">Nữ</label>
+        <input type="radio" name="GT" id="GT_khac"> 
+        <label for="GT_khac">Khác</label> <br><br>
+        Bạn học khoa nào?
+        <select name="khoa" id="khoa"
+            <option value="mar">Marketing</option>
+            <option value="cntt">CNTT</option>
+            <option value="bh">Bảo Hiểm</option>
+            <option value="kt">Kế toán</option>
+        </select>
+        <br><br>
+        
+        Ngày sinh:
+        <input type="date" name="ns"> <br> <br>
+        <input type="submit">
+        Ảnh đại diện:
+        <input type="file" name="anh" multiple> <br> <br>
+        Số năm kinh nghiệm làm việc:
+        <input type="number" name="sonamct"min"0" max"20" step"1" value"5"> <br> <br>
+        Mật khẩu:
+        <input type="password" name="pass"> <br> <br>
+
+        
+        <input type="submit">
+    <form>
+</body>
+</html>
